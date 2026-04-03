@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>给然然的生日纪念册</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <section class="memory-scene scene-intro">
+      <div class="page1-background" aria-hidden="true"></div>
+      <div class="petals" aria-hidden="true">
+        <span class="petal petal-1"></span>
+        <span class="petal petal-2"></span>
+        <span class="petal petal-3"></span>
+        <span class="petal petal-4"></span>
+        <span class="petal petal-5"></span>
+        <span class="petal petal-6"></span>
+        <span class="petal petal-7"></span>
+        <span class="petal petal-8"></span>
+        <span class="petal petal-9"></span>
+        <span class="petal petal-10"></span>
+        <span class="petal petal-11"></span>
+        <span class="petal petal-12"></span>
+        <span class="petal petal-13"></span>
+        <span class="petal petal-14"></span>
+        <span class="petal petal-15"></span>
+        <span class="petal petal-16"></span>
+      </div>
+      <div class="envelope-stage">
+        <div class="envelope-wrap" id="envelopeWrap">
+          <div class="envelope-shadow" aria-hidden="true"></div>
+          <div class="envelope-paper envelope-back" aria-hidden="true"></div>
+          <div class="envelope-front" aria-hidden="true">
+            <div class="envelope-bottom-fold"></div>
+            <div class="envelope-left-fold"></div>
+            <div class="envelope-right-fold"></div>
+          </div>
+          <div class="envelope-flap" aria-hidden="true"></div>
+          <button class="seal-button" id="sealButton" aria-label="打开给然然的信封">
+            <span class="seal-core" aria-hidden="true"></span>
+            <span class="seal-emblem" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-scene scene-next" id="nextPage" aria-hidden="true">
+      <div class="meteor-field" aria-hidden="true">
+        <span class="meteor meteor-1"></span>
+        <span class="meteor meteor-2"></span>
+        <span class="meteor meteor-3"></span>
+        <span class="meteor meteor-4"></span>
+        <span class="meteor meteor-5"></span>
+        <span class="meteor meteor-6"></span>
+        <span class="meteor meteor-7"></span>
+        <span class="meteor meteor-8"></span>
+        <span class="meteor meteor-9"></span>
+        <span class="meteor meteor-10"></span>
+        <span class="meteor meteor-11"></span>
+        <span class="meteor meteor-12"></span>
+        <span class="meteor meteor-13"></span>
+        <span class="meteor meteor-14"></span>
+        <span class="meteor meteor-15"></span>
+        <span class="meteor meteor-16"></span>
+        <span class="meteor meteor-17"></span>
+        <span class="meteor meteor-18"></span>
+      </div>
+      <article class="next-card letter-sheet">
+        <p class="letter-mark">Dear 然然</p>
+        <div class="letter-body">
+          <p>今天是特别的一天，时光在这里画上注脚</p>
+          <p>守望，成长，那些记忆铺陈出温柔的过往</p>
+          <p>期许，希望，无穷的远方，已经在未来悄然生长</p>
+          <p class="letter-gap">去勇敢，去绽放，去爱</p>
+          <p>你的身前会有高山，会有群星，会有四季变迁，会有那一轮明月</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="memory-scene scene-page3" id="page3" aria-hidden="true">
+      <h2 class="page3-title">过去的一年，你走过了很长的路</h2>
+      
+      <div class="journey-container">
+        <svg class="journey-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="ribbon-grad-1" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#ffccd5" />
+              <stop offset="50%" stop-color="#ffe6a0" />
+              <stop offset="100%" stop-color="#ffb3c6" />
+            </linearGradient>
+            <linearGradient id="ribbon-grad-2" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#ffb3c6" />
+              <stop offset="50%" stop-color="#ffccd5" />
+              <stop offset="100%" stop-color="#ffe6a0" />
+            </linearGradient>
+            <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="2" result="blur" />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+            <filter id="glow-strong" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="4" result="blur" />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+          </defs>
+          
+          <path class="ribbon-path ribbon-layer-1" d="M -5,-5 C 15,10 70,10 65,30 C 60,50 15,40 25,65 C 35,90 85,80 105,105" fill="none" stroke="url(#ribbon-grad-1)" stroke-width="28" stroke-linecap="round" opacity="0.3" filter="url(#glow-strong)" vector-effect="non-scaling-stroke" />
+          <path class="ribbon-path ribbon-layer-2" d="M -5,-5 C 15,10 70,10 65,30 C 60,50 15,40 25,65 C 35,90 85,80 105,105" fill="none" stroke="url(#ribbon-grad-2)" stroke-width="16" stroke-linecap="round" opacity="0.6" filter="url(#glow)" vector-effect="non-scaling-stroke" />
+          <path class="ribbon-path ribbon-layer-3" d="M -5,-5 C 15,10 70,10 65,30 C 60,50 15,40 25,65 C 35,90 85,80 105,105" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.8" filter="url(#glow)" vector-effect="non-scaling-stroke" />
+        </svg>
+
+        <div class="journey-particles-html">
+          <span class="jp jp-p" style="top: 5%; left: 10%; --s: 5px;"></span>
+          <span class="jp jp-g" style="top: 10%; left: 25%; --s: 3px;"></span>
+          <span class="jp jp-w" style="top: 15%; left: 45%; --s: 7px;"></span>
+          <span class="jp jp-p" style="top: 20%; left: 65%; --s: 4px;"></span>
+          <span class="jp jp-d" style="top: 25%; left: 60%; --s: 6px;"></span>
+          <span class="jp jp-g" style="top: 30%; left: 50%; --s: 4px;"></span>
+          <span class="jp jp-w" style="top: 35%; left: 35%; --s: 8px;"></span>
+          <span class="jp jp-p" style="top: 40%; left: 20%; --s: 5px;"></span>
+          <span class="jp jp-d" style="top: 45%; left: 15%; --s: 7px;"></span>
+          <span class="jp jp-g" style="top: 50%; left: 25%; --s: 3px;"></span>
+          <span class="jp jp-w" style="top: 55%; left: 40%; --s: 6px;"></span>
+          <span class="jp jp-p" style="top: 60%; left: 55%; --s: 5px;"></span>
+          <span class="jp jp-d" style="top: 65%; left: 70%; --s: 8px;"></span>
+          <span class="jp jp-g" style="top: 70%; left: 80%; --s: 4px;"></span>
+          <span class="jp jp-w" style="top: 75%; left: 75%; --s: 6px;"></span>
+          <span class="jp jp-p" style="top: 80%; left: 85%; --s: 5px;"></span>
+          <span class="jp jp-d" style="top: 85%; left: 95%; --s: 7px;"></span>
+          <span class="jp jp-w" style="top: 8%; left: 18%; --s: 4px;"></span>
+          <span class="jp jp-p" style="top: 18%; left: 55%; --s: 6px;"></span>
+          <span class="jp jp-g" style="top: 28%; left: 45%; --s: 5px;"></span>
+          <span class="jp jp-d" style="top: 38%; left: 25%; --s: 4px;"></span>
+          <span class="jp jp-w" style="top: 48%; left: 30%; --s: 7px;"></span>
+          <span class="jp jp-p" style="top: 58%; left: 65%; --s: 5px;"></span>
+          <span class="jp jp-g" style="top: 68%; left: 85%; --s: 6px;"></span>
+          <span class="jp jp-d" style="top: 78%; left: 90%; --s: 4px;"></span>
+          <span class="jp jp-p" style="top: 12%; left: 35%; --s: 8px;"></span>
+          <span class="jp jp-g" style="top: 22%; left: 50%; --s: 3px;"></span>
+          <span class="jp jp-w" style="top: 32%; left: 30%; --s: 6px;"></span>
+          <span class="jp jp-d" style="top: 42%; left: 10%; --s: 5px;"></span>
+          <span class="jp jp-p" style="top: 52%; left: 45%; --s: 7px;"></span>
+          <span class="jp jp-g" style="top: 62%; left: 75%; --s: 4px;"></span>
+          <span class="jp jp-w" style="top: 72%; left: 95%; --s: 5px;"></span>
+        </div>
+
+        <div class="journey-node node-1">
+          <div class="node-core"></div>
+          <div class="memory-photo photo-1">
+            <img src="../photo/page3/tencent.jpg" alt="Tencent Offer" />
+          </div>
+        </div>
+        <div class="journey-node node-2">
+          <div class="node-core"></div>
+          <div class="memory-photo photo-2">
+            <img src="../photo/page3/offer.jpg" alt="BNU Offer" />
+          </div>
+        </div>
+        <div class="journey-node node-3">
+          <div class="node-core"></div>
+          <div class="memory-photo photo-3">
+            <img src="../photo/page3/paper.png" alt="Research Paper" />
+          </div>
+        </div>
+        
+        <div class="page3-ending-text">
+          <p>你若决定灿烂</p>
+          <p>山无遮  海无阻</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-scene scene-page4" id="page4" aria-hidden="true">
+      <h2 class="page4-title">过去的一岁，你也去到了很多地方</h2>
+      
+      <div class="map-container">
+        <!-- SVG Map Routes -->
+        <svg class="map-routes-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path class="map-route route-1" d="M 20,30 Q 40,15 60,20" fill="none" stroke="url(#ribbon-grad-2)" stroke-width="5" filter="url(#glow)" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+          <path class="map-route route-2" d="M 60,20 Q 80,30 80,50" fill="none" stroke="url(#ribbon-grad-1)" stroke-width="5" filter="url(#glow)" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+          <path class="map-route route-3" d="M 80,50 Q 80,65 60,70" fill="none" stroke="url(#ribbon-grad-2)" stroke-width="5" filter="url(#glow)" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+          <path class="map-route route-4" d="M 60,70 Q 50,80 40,65" fill="none" stroke="url(#ribbon-grad-1)" stroke-width="5" filter="url(#glow)" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+        </svg>
+
+        <div class="map-particles-html">
+          <span class="mp mp-p" style="top: 25%; left: 30%; --s: 6px;"></span>
+          <span class="mp mp-g" style="top: 18%; left: 45%; --s: 4px;"></span>
+          <span class="mp mp-w" style="top: 28%; left: 70%; --s: 5px;"></span>
+          <span class="mp mp-p" style="top: 40%; left: 80%; --s: 7px;"></span>
+          <span class="mp mp-d" style="top: 55%; left: 85%; --s: 4px;"></span>
+          <span class="mp mp-g" style="top: 65%; left: 70%; --s: 6px;"></span>
+          <span class="mp mp-w" style="top: 75%; left: 55%; --s: 5px;"></span>
+          <span class="mp mp-p" style="top: 70%; left: 40%; --s: 7px;"></span>
+          <span class="mp mp-d" style="top: 60%; left: 30%; --s: 4px;"></span>
+          
+          <span class="mp mp-w" style="top: 35%; left: 40%; --s: 5px;"></span>
+          <span class="mp mp-p" style="top: 22%; left: 60%; --s: 8px;"></span>
+          <span class="mp mp-g" style="top: 45%; left: 75%; --s: 4px;"></span>
+          <span class="mp mp-d" style="top: 58%; left: 60%; --s: 5px;"></span>
+          <span class="mp mp-w" style="top: 50%; left: 50%; --s: 6px;"></span>
+          <span class="mp mp-g" style="top: 42%; left: 35%; --s: 4px;"></span>
+          <span class="mp mp-p" style="top: 30%; left: 20%; --s: 7px;"></span>
+        </div>
+
+        <div class="map-point point-1">
+          <div class="point-core"></div>
+          <div class="map-photo m-photo-1">
+            <img src="../photo/page4/wuhan.webp" alt="Wuhan" />
+          </div>
+        </div>
+        <div class="map-point point-2">
+          <div class="point-core"></div>
+          <div class="map-photo m-photo-2">
+            <img src="../photo/page4/korea2.webp" alt="Korea" />
+          </div>
+        </div>
+        <div class="map-point point-3">
+          <div class="point-core"></div>
+          <div class="map-photo m-photo-3">
+            <img src="../photo/page4/yanji.webp" alt="Yanji" />
+          </div>
+        </div>
+        <div class="map-point point-4">
+          <div class="point-core"></div>
+          <div class="map-photo m-photo-4">
+            <img src="../photo/page4/haunqiu2.webp" alt="Universal Studios" />
+          </div>
+        </div>
+        <div class="map-point point-5">
+          <div class="point-core"></div>
+          <div class="map-photo m-photo-5">
+            <img src="../photo/page4/taiwu.webp" alt="Taiwu Ski Resort" />
+          </div>
+        </div>
+
+        <div class="page4-center-text">
+          <p>世间的美好，与你环环相扣</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-scene scene-page5" id="page5" aria-hidden="true">
+      <div class="page5-rainbow"></div>
+      
+      <div class="page5-kite">
+        <svg viewBox="0 0 100 150">
+          <polygon points="50,0 100,50 50,100 0,50" fill="rgba(255, 255, 255, 0.9)" stroke="#c99ba4" stroke-width="2"/>
+          <line x1="50" y1="0" x2="50" y2="100" stroke="#c99ba4" stroke-width="1.5"/>
+          <line x1="0" y1="50" x2="100" y2="50" stroke="#c99ba4" stroke-width="1.5"/>
+          <path d="M 50,100 Q 30,120 50,150" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="50" cy="150" r="3" fill="#ffe6a0"/>
+          <circle cx="35" cy="125" r="2.5" fill="#ffb3c6"/>
+        </svg>
+      </div>
+
+      <!-- 写实气球容器（纯 CSS 变量错峰漂浮） -->
+      <div class="balloon-container" aria-hidden="true">
+        <div class="balloon-wrapper" style="left: 8vw; --duration: 22s; --drift-duration: 5.8s; --delay: 0.2s; --rgb: 255, 160, 180; --width: 64px; --height: 78px; --z: 1;">
+          <div class="balloon-drift">
+            <div class="balloon"></div><div class="knot"></div><div class="string"></div>
+          </div>
+        </div>
+        <div class="balloon-wrapper" style="left: 18vw; --duration: 20s; --drift-duration: 6.2s; --delay: 1.0s; --rgb: 130, 200, 255; --width: 56px; --height: 70px; --z: 0;">
+          <div class="balloon-drift">
+            <div class="balloon"></div><div class="knot"></div><div class="string"></div>
+          </div>
+        </div>
+        <div class="balloon-wrapper" style="left: 28vw; --duration: 24s; --drift-duration: 6.8s; --delay: 0.6s; --rgb: 255, 180, 120; --width: 72px; --height: 88px; --z: 1;">
+          <div class="balloon-drift">
+            <div class="balloon"></div><div class="knot"></div><div class="string"></div>
+          </div>
+        </div>
+        <div class="balloon-wrapper" style="left: 38vw; --duration: 18.5s; --drift-duration: 4.6s; --delay: 1.6s; --rgb: 200, 160, 230; --width: 54px; --height: 66px; --z: 0;">
+          <div class="balloon-drift">
+            <div class="balloon"></div><div class="knot"></div><div class="string"></div>
+          </div>
+        </div>
+        <div class="balloon-wrapper" style="left: 50vw; --duration: 23s; --drift-duration: 5.2s; --delay: 2.2s; --rgb: 150, 220, 180; --width: 62px; --height: 76px; --z: 1;">
+          <div class="balloon-drift">
+            <div class="balloon"></div><div class="knot"></div><div class="string"></div>
+          </div>
+        </div>
+        <div class="balloon-wrapper" style="left: 62vw; --duration: 21s; --drift-duration: 6.4s; --delay: 0.9s; --rgb: 250, 240, 245; --width: 58px; --height: 72px; --z: 0;">
+          <div class="balloon-drift">
+            <div class="balloon"></div><div class="knot"></div><div class="string"></div>
+          </div>
+        </div>
+        <div class="balloon-wrapper" style="left: 74vw; --duration: 25s; --drift-duration: 6.9s; --delay: 1.3s; --rgb: 255, 160, 180; --width: 70px; --height: 86px; --z: 1;">
+          <div class="balloon-drift">
+            <div class="balloon"></div><div class="knot"></div><div class="string"></div>
+          </div>
+        </div>
+        <div class="balloon-wrapper" style="left: 86vw; --duration: 19.5s; --drift-duration: 5.0s; --delay: 2.8s; --rgb: 130, 200, 255; --width: 60px; --height: 74px; --z: 0;">
+          <div class="balloon-drift">
+            <div class="balloon"></div><div class="knot"></div><div class="string"></div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="page5-title">
+        去拥抱生活，继续做那个美丽，成熟，真诚，坚定的自己吧！
+      </h2>
+      
+      <div class="polaroid-grid-container">
+        <div class="polaroid-grid">
+          <div class="polaroid-item p-item-1">
+            <div class="polaroid-img-wrapper"><img src="../photo/page5/fig2.webp" alt="Memory 1" /></div>
+          </div>
+          <div class="polaroid-item p-item-2">
+            <div class="polaroid-img-wrapper"><img src="../photo/page5/fig8.webp" alt="Memory 2" /></div>
+          </div>
+          <div class="polaroid-item p-item-3">
+            <div class="polaroid-img-wrapper"><img src="../photo/page5/fig3.webp" alt="Memory 3" /></div>
+          </div>
+          <div class="polaroid-item p-item-7">
+            <div class="polaroid-img-wrapper"><img src="../photo/page5/fig7.webp" alt="Memory 7" /></div>
+          </div>
+          <div class="polaroid-item p-item-4">
+            <div class="polaroid-img-wrapper"><img src="../photo/page5/fig4.webp" alt="Memory 4" /></div>
+          </div>
+          <div class="polaroid-item p-item-5">
+            <div class="polaroid-img-wrapper"><img src="../photo/page5/fig1.webp" alt="Memory 5" /></div>
+          </div>
+          <div class="polaroid-item p-item-6">
+            <div class="polaroid-img-wrapper"><img src="../photo/page5/fig6.webp" alt="Memory 6" /></div>
+          </div>
+          <div class="polaroid-item p-item-8">
+            <div class="polaroid-img-wrapper"><img src="../photo/page5/fig5.webp" alt="Memory 8" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-scene scene-page6" id="page6" aria-hidden="true">
+      <div class="page6-bg" aria-hidden="true"></div>
+
+      <div class="page6-split" role="group" aria-label="Page 6 layout">
+        <div class="page6-side page6-left">
+          <div class="page6-images page6-images--left">
+            <figure class="page6-photo c1">
+              <img src="../photo/page6/kaifeng.jpg" alt="开封" />
+            </figure>
+            <figure class="page6-photo c2">
+              
+              <img src="../photo/page6/jingdezhen.jpg" alt="景德镇" />
+            </figure>
+            <figure class="page6-photo c3">
+              <img src="../photo/page6/xian.jpg" alt="西安" />
+            </figure>
+            <figure class="page6-photo c4">
+              <img src="../photo/page6/shanxi.jpg" alt="山西" />
+            </figure>
+          </div>
+          <div class="page6-quote q-left" aria-label="Left quote">这一程山水，不必紧张</div>
+        </div>
+
+        <div class="page6-side page6-right">
+          <div class="page6-quote q-right" aria-label="Right quote">这一路繁花，皆为序章</div>
+          <div class="page6-images page6-images--right">
+            <figure class="page6-photo c5">
+              <img src="../photo/page6/shengdan.jpg" alt="圣诞" />
+            </figure>
+            <figure class="page6-photo c6">
+              
+              <img src="../photo/page6/kaifeng2.jpg" alt="开封" />
+            </figure>
+            <figure class="page6-photo c7">
+              <img src="../photo/page6/yanji2.jpg" alt="延吉" />
+            </figure>
+            <figure class="page6-photo c8">
+              <img src="../photo/page6/anniversary.jpg" alt="纪念日" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-scene scene-page7" id="page7" aria-hidden="true">
+      <div class="page7-bg" aria-hidden="true"></div>
+      
+      <!-- 左上角日历 -->
+      <div class="page7-calendar" aria-hidden="true">
+        <div class="cal-header">April</div>
+        <div class="cal-weekdays">
+          <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+        </div>
+        <div class="cal-days">
+          <span></span><span></span><span></span>
+          <span>1</span><span>2</span><span>3</span><span>4</span>
+          <span>5</span>
+          <span class="highlight-day">
+            6
+            <svg class="crayon-mark" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path d="M10,80 Q40,60 90,20" fill="none" stroke="#ff8fab" stroke-width="32" stroke-linecap="round" opacity="0.65"/>
+              <path d="M15,85 Q50,55 95,25" fill="none" stroke="#f472a8" stroke-width="26" stroke-linecap="round" opacity="0.82"/>
+              <path d="M5,75 Q45,45 85,15" fill="none" stroke="#ffb3ce" stroke-width="28" stroke-linecap="round" opacity="0.55"/>
+              <path d="M20,70 Q60,40 80,30" fill="none" stroke="#ff6b9d" stroke-width="22" stroke-linecap="round" opacity="0.88"/>
+            </svg>
+          </span>
+          <span>7</span><span>8</span><span>9</span><span>10</span><span>11</span>
+          <span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span>
+          <span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span>
+          <span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+        </div>
+      </div>
+
+      <!-- 右下角脚印 -->
+      <div class="page7-footprints" aria-hidden="true">
+        <!-- 右脚 -->
+        <svg class="footprint fp-1" viewBox="0 0 100 100">
+          <path d="M50,95 C35,95 35,75 40,60 C45,45 35,35 45,25 C55,15 75,25 70,45 C65,60 65,95 50,95 Z" fill="#fff"/>
+          <circle cx="35" cy="15" r="6" fill="#fff"/>
+          <circle cx="48" cy="10" r="5" fill="#fff"/>
+          <circle cx="60" cy="12" r="4" fill="#fff"/>
+          <circle cx="70" cy="18" r="3.5" fill="#fff"/>
+          <circle cx="78" cy="26" r="3" fill="#fff"/>
+        </svg>
+        <!-- 左脚 -->
+        <svg class="footprint fp-2" viewBox="0 0 100 100">
+          <path d="M50,95 C65,95 65,75 60,60 C55,45 65,35 55,25 C45,15 25,25 30,45 C35,60 35,95 50,95 Z" fill="#fff"/>
+          <circle cx="65" cy="15" r="6" fill="#fff"/>
+          <circle cx="52" cy="10" r="5" fill="#fff"/>
+          <circle cx="40" cy="12" r="4" fill="#fff"/>
+          <circle cx="30" cy="18" r="3.5" fill="#fff"/>
+          <circle cx="22" cy="26" r="3" fill="#fff"/>
+        </svg>
+        <!-- 右脚 -->
+        <svg class="footprint fp-3" viewBox="0 0 100 100">
+          <path d="M50,95 C35,95 35,75 40,60 C45,45 35,35 45,25 C55,15 75,25 70,45 C65,60 65,95 50,95 Z" fill="#fff"/>
+          <circle cx="35" cy="15" r="6" fill="#fff"/>
+          <circle cx="48" cy="10" r="5" fill="#fff"/>
+          <circle cx="60" cy="12" r="4" fill="#fff"/>
+          <circle cx="70" cy="18" r="3.5" fill="#fff"/>
+          <circle cx="78" cy="26" r="3" fill="#fff"/>
+        </svg>
+        <!-- 左脚 -->
+        <svg class="footprint fp-4" viewBox="0 0 100 100">
+          <path d="M50,95 C65,95 65,75 60,60 C55,45 65,35 55,25 C45,15 25,25 30,45 C35,60 35,95 50,95 Z" fill="#fff"/>
+          <circle cx="65" cy="15" r="6" fill="#fff"/>
+          <circle cx="52" cy="10" r="5" fill="#fff"/>
+          <circle cx="40" cy="12" r="4" fill="#fff"/>
+          <circle cx="30" cy="18" r="3.5" fill="#fff"/>
+          <circle cx="22" cy="26" r="3" fill="#fff"/>
+        </svg>
+        <!-- 右脚 -->
+        <svg class="footprint fp-5" viewBox="0 0 100 100">
+          <path d="M50,95 C35,95 35,75 40,60 C45,45 35,35 45,25 C55,15 75,25 70,45 C65,60 65,95 50,95 Z" fill="#fff"/>
+          <circle cx="35" cy="15" r="6" fill="#fff"/>
+          <circle cx="48" cy="10" r="5" fill="#fff"/>
+          <circle cx="60" cy="12" r="4" fill="#fff"/>
+          <circle cx="70" cy="18" r="3.5" fill="#fff"/>
+          <circle cx="78" cy="26" r="3" fill="#fff"/>
+        </svg>
+        <!-- 左脚 -->
+        <svg class="footprint fp-6" viewBox="0 0 100 100">
+          <path d="M50,95 C65,95 65,75 60,60 C55,45 65,35 55,25 C45,15 25,25 30,45 C35,60 35,95 50,95 Z" fill="#fff"/>
+          <circle cx="65" cy="15" r="6" fill="#fff"/>
+          <circle cx="52" cy="10" r="5" fill="#fff"/>
+          <circle cx="40" cy="12" r="4" fill="#fff"/>
+          <circle cx="30" cy="18" r="3.5" fill="#fff"/>
+          <circle cx="22" cy="26" r="3" fill="#fff"/>
+        </svg>
+      </div>
+
+      <div class="page7-content">
+        <div class="page7-glass-card">
+          <p>新的一岁</p>
+          <p>去到想去的地方</p>
+          <p>成为想成为的自己</p>
+          <br>
+          <p>飞向你的山，写下你的诗篇</p>
+          <p>有繁星，有朝阳</p>
+          <p>有热爱，有回响</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-scene scene-page8" id="page8" aria-hidden="true">
+      <div class="page8-bg" aria-hidden="true">
+        <img class="page8-bg__img" src="../photo/page8/flower2.jpg" alt="" decoding="async" />
+      </div>
+      <div class="page8-inner">
+        <div class="page8-quotes" aria-label="文字">
+          <p class="page8-quote page8-quote--a">谢谢你走进我的生命</p>
+          <div class="page8-quote-stack">
+            <p class="page8-quote page8-quote--b">成为了我的几分之几</p>
+            <div class="page8-heart-decor heart-container" aria-hidden="true">
+              <svg class="page8-heart-decor__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <defs>
+                  <linearGradient id="p8HeartGrad" x1="3" y1="4" x2="21" y2="20" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#ffd6e8" />
+                    <stop offset="45%" stop-color="#ff6b95" />
+                    <stop offset="100%" stop-color="#d63a6a" />
+                  </linearGradient>
+                </defs>
+                <!-- 标准描边心形曲线（24×24 坐标系），线条样式见 .heart-container svg path -->
+                <path
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="page8-gallery" role="group" aria-label="照片轮播：左列 col 竖图，右侧 row 横图两行（不重复）">
+          <!-- 竖图 photo/page8/col；横图 photo/page8/row — 由 script 组装胶片 -->
+          <figure class="page8-thumb page8-thumb--col"><img src="../photo/page8/col/donghu.webp" alt="东湖" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--col"><img src="../photo/page8/col/huanghelou.webp" alt="黄鹤楼" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--col"><img src="../photo/page8/col/wuhan.webp" alt="武汉" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--col"><img src="../photo/page8/col/wuhan_KFC.webp" alt="武汉" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--col"><img src="../photo/page8/col/xiaowu_col.webp" alt="小武" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--col"><img src="../photo/page8/col/xiaowu_KFC.webp" alt="小武" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--col"><img src="../photo/page8/col/xiowu3.webp" alt="小武" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--row"><img src="../photo/page8/row/anniversary.webp" alt="纪念日" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--row"><img src="../photo/page8/row/flower1.webp" alt="花束" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--row"><img src="../photo/page8/row/flower2.webp" alt="花束" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--row"><img src="../photo/page8/row/shishahai.webp" alt="什刹海" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--row"><img src="../photo/page8/row/taiwu.webp" alt="照片" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--row"><img src="../photo/page8/row/xiaowu_after.webp" alt="小武" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--row"><img src="../photo/page8/row/xiaowu_row.webp" alt="小武" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--row"><img src="../photo/page8/row/xiowu2.webp" alt="小武" decoding="async" /></figure>
+          <figure class="page8-thumb page8-thumb--row"><img src="../photo/page8/row/xiowu4.webp" alt="小武" decoding="async" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page 9: 时光隧道（3D 视频卡片） -->
+    <section class="memory-scene scene-page9" id="page9" aria-hidden="true">
+      <div class="page9-tunnel-root">
+        <div class="page9-dust page9-dust--1" aria-hidden="true"></div>
+        <div class="page9-dust page9-dust--2" aria-hidden="true"></div>
+        <div class="page9-dust page9-dust--3" aria-hidden="true"></div>
+        <div class="page9-tunnel-scene" role="presentation">
+          <!-- 出现顺序与方向由 script.js initPage9LayoutRandom() 随机分配 -->
+          <div class="page9-card">
+            <video
+              preload="metadata"
+              src="../photo/page9/anniversary2/anniversary2.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+          <div class="page9-card">
+            <video
+              preload="metadata"
+              src="../photo/page9/niaotun2/niaotun2.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+          <div class="page9-card">
+            <video
+              preload="metadata"
+              src="../photo/page9/shishahai2/shishahai2.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+          <div class="page9-card">
+            <video
+              preload="metadata"
+              src="../photo/page9/wuhankaoyu2/wuhankaoyu2.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+          <div class="page9-card">
+            <video
+              preload="metadata"
+              src="../photo/page9/wuhandonghu/wuhandongwu.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+          <div class="page9-card">
+            <video
+              preload="metadata"
+              src="../photo/page9/xiaowu_KFC2/xiaowu_KFC2.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+        </div>
+        <aside class="page9-side-text" aria-label="寄语">
+          <p class="page9-line page9-line--a">我可能不是最好的男朋友</p>
+          <p class="page9-line page9-line--b">但你却是最棒的女朋友</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Page 10: 深情告白页（流动深渊 + 时钟水印 + ∞ 高潮句） -->
+    <section class="memory-scene scene-page10" id="page10" aria-hidden="true">
+      <div class="page10-bg-base" aria-hidden="true"></div>
+      <div class="page10-noise" aria-hidden="true"></div>
+      <div class="page10-whisper-cloud" aria-hidden="true">
+        <span class="page10-whisper page10-whisper--1">Happy Birthday</span>
+        <span class="page10-whisper page10-whisper--zh">生日快乐</span>
+        <span class="page10-whisper page10-whisper--2">Joyeux Anniversaire</span>
+        <span class="page10-whisper page10-whisper--3">Feliz Cumpleaños</span>
+        <span class="page10-whisper page10-whisper--4">お誕生日おめでとう</span>
+        <span class="page10-whisper page10-whisper--5">С днем рождения</span>
+        <span class="page10-whisper page10-whisper--6">Buon Compleanno</span>
+        <span class="page10-whisper page10-whisper--7">생일 축하해</span>
+        <span class="page10-whisper page10-whisper--8">Alles Gute zum Geburtstag</span>
+        <span class="page10-whisper page10-whisper--9">Felicem Diem Natalem</span>
+      </div>
+      <div class="page10-time-watermark" aria-hidden="true">
+        <div class="page10-clock-dial"></div>
+        <div class="page10-clock-hand page10-hour-hand"></div>
+        <div class="page10-clock-hand page10-minute-hand"></div>
+      </div>
+      <div class="page10-vignette" aria-hidden="true"></div>
+      <div class="page10-content">
+        <p class="page10-line page10-line--1">生日快乐 我的女孩</p>
+        <p class="page10-line page10-line--2">在我眼里你永远会是18岁</p>
+        <p class="page10-line page10-line--3">但我不止爱18岁的你</p>
+        <div class="page10-line-4-wrapper">
+          <div class="page10-infinity-bg" aria-hidden="true">∞</div>
+          <p class="page10-line-4-text">爱所有时间的你</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page 11: 关灯吹烛 → 烟花终幕 -->
+    <section class="memory-scene scene-page11" id="page11" aria-hidden="true">
+      <div class="page11-void" aria-hidden="true"></div>
+      <div class="page11-stage">
+        <p class="page11-hint">吹灭这些蜡烛
+          <br>
+          带着美好的祝愿，开启新的一岁吧！</p>
+        <div class="page11-cake" aria-hidden="true">
+          <div class="page11-plate"></div>
+          <div class="page11-sponge"></div>
+          <div class="page11-frosting"></div>
+          <div class="page11-candles">
+            <div class="page11-candle">
+              <span class="page11-flame" aria-hidden="true"></span>
+              <span class="page11-wick"></span>
+              <span class="page11-shaft"></span>
+            </div>
+            <div class="page11-candle">
+              <span class="page11-flame" aria-hidden="true"></span>
+              <span class="page11-wick"></span>
+              <span class="page11-shaft"></span>
+            </div>
+          </div>
+        </div>
+        <div class="page11-wind" aria-hidden="true"></div>
+        <div class="page11-smoke" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="page11-fireworks" aria-hidden="true">
+        <canvas
+          id="page11FireworksCanvas"
+          class="page11-fireworks-canvas"
+          width="800"
+          height="600"
+          aria-label="夜空烟花"
+        ></canvas>
+      </div>
+    </section>
+  </div>
+
+  <audio id="bgm" loop preload="auto">
+    <source src="../bgm/bgm2.mp3
+    " type="audio/mpeg">
+  </audio>
+
+  <script src="./script.js"></script>
+</body>
+</html>
