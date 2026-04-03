@@ -4252,8 +4252,9 @@ body::before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50px;  /* 星星的初始大小：极其微小 */
-  height: 50px;
+  width: 1px;  /* 星星的初始大小：极其微小 */
+  height: 1px;
+  border-radius: 50%;
   background: transparent;
   z-index: 0; /* 放在背景之上，烟花 canvas 之下 */
   opacity: 0.6;
@@ -4273,8 +4274,9 @@ body::before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 30px; /* 星星稍微大半个像素 */
-  height: 30px;
+  width: 2px; /* 星星稍微大半个像素 */
+  height: 2px;
+  border-radius: 50%;
   background: transparent;
   z-index: 0;
   box-shadow: 
