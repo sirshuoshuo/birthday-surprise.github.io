@@ -405,8 +405,8 @@ function startPage11FireworksCanvas() {
   function loop() {
     requestAnimationFrame(loop);
 
-    ctx.globalCompositeOperation = "source-over";
-    ctx.fillStyle = "rgba(10, 15, 25, 0.25)";
+    ctx.globalCompositeOperation = "destination-out";
+    ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
     ctx.fillRect(0, 0, cw, ch);
 
     ctx.globalCompositeOperation = "lighter";
