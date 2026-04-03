@@ -4211,6 +4211,8 @@ body::before {
   display: block;
   width: 100%;
   height: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4256,7 +4258,7 @@ body::before {
   height: 1px;
   border-radius: 50%;
   background: transparent;
-  z-index: 0; /* 放在背景之上，烟花 canvas 之下 */
+  z-index: 1; /* 放在背景之上，烟花 canvas 之下 */
   opacity: 0.6;
   /* 利用 box-shadow 在屏幕不同位置映射出几十个点 (vw和vh确保适配手机和电脑) */
   box-shadow: 
@@ -4278,7 +4280,7 @@ body::before {
   height: 2px;
   border-radius: 50%;
   background: transparent;
-  z-index: 0;
+  z-index: 1;
   box-shadow: 
     15vw 70vh #fff, 25vw 25vh #fff, 35vw 60vh #fff, 45vw 10vh #fff, 55vw 85vh #fff,
     65vw 40vh #fff, 75vw 90vh #fff, 85vw 20vh #fff, 95vw 75vh #fff, 5vw 30vh #fff;
