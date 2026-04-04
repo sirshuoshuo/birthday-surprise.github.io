@@ -228,7 +228,7 @@ function handlePageTransition() {
 }
 
 /** 第 11 页：3s 后风吹灭烛 → 再切烟花终幕（时长与 CSS 中熄灭动画一致） */
-const PAGE11_HINT_MS = 3000;
+const PAGE11_HINT_MS = 4000;
 const PAGE11_EXTINGUISH_MS = 2200;
 
 function startPage11CandleSequence() {
